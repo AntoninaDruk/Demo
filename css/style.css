@@ -44,9 +44,6 @@
 .header__menu {
 }
 
-._container {
-}
-
 .header__logo::before {
   content: url("../img/icons/logo1.png");
   margin-right: 10px;
@@ -77,8 +74,7 @@
   min-height: 565px;
   width: 1120px;
   flex-direction: column;
-  background-color: beige;
-  margin: 123px auto;
+  margin: 136px auto;
   justify-content: center;
 }
 
@@ -118,5 +114,22 @@
 }
 .main-block__buttons {
 }
-
+/*------------------------------SECTION1-----------------------------------*/
+._containerMini {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 740px;
+  height: 120px;
+  margin: 0px auto;
+  background-color: aqua;
+}
+.companiesTitle {
+  font-size: 24px;
+  text-align: center;
+}
+.companies__container {
+  display: flex;
+  justify-content: space-between;
+}
 /*------------------------------ПОДВАЛ-----------------------------------*/
