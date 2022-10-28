@@ -1,3 +1,8 @@
+*{
+  font-family: sans-serif, "Inter";
+  font-weight: 400;
+  font-size: 14px;
+}
 .wrapper {
   min-height: 100%;
   overflow: hidden;
@@ -25,6 +30,16 @@
 .header__blue {
   text-align: center;
   color: #ffffff;
+  line-height: 116%;
+}
+.header__blue span{
+  font-size: 13px;
+  display: inline-block;
+  vertical-align: top;
+  color:#CCE5F3;
+}
+.header__blue span::after{
+  content: ">"
 }
 .header {
   position: absolute;
