@@ -1,0 +1,123 @@
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+._container {
+  max-width: 1130px;
+  margin: 0px auto;
+}
+
+/*------------------------------ШАПКА------------------------------------*/
+.headerblue {
+  display: flex;
+  min-height: 43px;
+  width: 1440px;
+  margin: 0px auto;
+  align-content: space-between;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0070a0;
+}
+.header__blue {
+  text-align: center;
+  color: #ffffff;
+}
+.header {
+  position: absolute;
+  width: 100%;
+  z-index: 50;
+}
+.header__container {
+  display: flex;
+  min-height: 80px;
+  align-items: center;
+}
+
+.header__logo {
+  display: contents;
+}
+
+.header__menu {
+}
+
+._container {
+}
+
+.header__logo::before {
+  content: url("../img/icons/logo1.png");
+  margin-right: 10px;
+}
+
+.menu__list {
+  display: flex;
+  margin-left: 34px;
+}
+
+.menu__item {
+}
+.menu__item:not(:last-child) {
+  margin: 0px 24px 0px 0px;
+}
+
+.menu__link {
+  color: #33383f;
+  line-height: 171%;
+}
+
+/*-------------------------------MAIN-----------------------------------*/
+.main {
+  flex: 1 1 auto;
+}
+.page {
+  display: flex;
+  min-height: 565px;
+  width: 1120px;
+  align-content: space-between;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: beige;
+  margin: 123px auto;
+}
+
+.page__main-block {
+  display: flex;
+}
+.main-block__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.main-block__container {
+  display: flex;
+}
+
+.main-block__title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 64px;
+  /* or 110% */
+  letter-spacing: 0.2px;
+}
+
+.main-block__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  letter-spacing: 0.2px;
+}
+.main-block__buttons {
+}
+
+/*------------------------------ПОДВАЛ-----------------------------------*/
