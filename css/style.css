@@ -69,7 +69,7 @@
 .main {
   flex: 1 1 auto;
 }
-.page {
+.page1 {
   display: flex;
   min-height: 565px;
   width: 1120px;
@@ -122,7 +122,6 @@
   width: 740px;
   height: 120px;
   margin: 0px auto;
-  background-color: aqua;
 }
 .companiesTitle {
   font-size: 24px;
@@ -131,5 +130,25 @@
 .companies__container {
   display: flex;
   justify-content: space-between;
+} /*----------------------------BANNERS-----------------------------------*/
+.page2 {
+  display: flex;
+  min-height: 565px;
+  width: 1120px;
+  margin: 136px auto;
+  justify-content: space-around;
+}
+.banners__3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.banners__block {
+  display: flex;
+  max-height: 250px;
+  max-width: 355px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #0070a0;
 }
 /*------------------------------ПОДВАЛ-----------------------------------*/
