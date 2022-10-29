@@ -88,6 +88,8 @@
 }
 
 .header__button{
+  position: relative;
+  right: 31px;
   color:#0070A0;
   line-height: 135%;
 }
