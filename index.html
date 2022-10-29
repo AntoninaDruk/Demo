@@ -12,57 +12,87 @@
     <title>Artemke</title>
   </head>
   <body>
-    <div class="wrapper">
-      <header class="header">
+  <!-- <div class="wrapper"> -зачем? -->
+  <!-- Шапка -->
+  <header class="header">
+    <div class="wrapper__headerblue">
+      <div class="container">
         <div class="headerblue">
           <p class="header__blue">
-            A Webflow template for SaaS products. See all templates >
+          A Webflow template for SaaS products. <span> See all templates</span>
           </p>
         </div>
-        <div class="header__container _container">
-          <a href="" class="header__logo">
-            <img src="img/icons/logo2.png" alt="logo2" />
+      </div>
+    </div>
+    <div class="container">
+    <!-- Меню навигации -->
+      <div class="header__container">
+        <nav class="header__menu menu">
+          <a href="#" class="header__logo">
+            <img src="img/icons/logo2.png" alt="logo">
           </a>
-          <nav class="header__menu menu">
           <ul class="menu__list">
             <li class="menu__item">
-              <a href="" class="menu__link">Features</a>
+              <a href="#" class="menu__link">Features</a>
             </li>
             <li class="menu__item">
-              <a href="" class="menu__link">Pricing</a>
+              <a href="#" class="menu__link">Pricing</a>
             </li>
             <li class="menu__item">
-              <a href="" class="menu__link">Integrations</a>
+              <a href="#" class="menu__link">Integrations</a>
             </li>
             <li class="menu__item">
-              <a href="" class="menu__link">Learn</a>
+              <a href="#" class="menu__link">Learn</a>
             </li>
-          </nav>
           </ul>
-          </nav>
+        </nav>
+        <div class="header__buttons">
+          <a href="#" class="header__button">Sign in</a>
+          <a href="#" class="header__button-buy btn-blue">Book a demo</a>
         </div>
-      </header>
-      <main class="page">
-<div class="page__main-block main-block">
-  <div class="main-block__container _container">
-    <div class="main-block__body">
-    <h1 class="main-block__title">Your everyday <br> tasks, automated.</h1>
-    <div class="main-block__text">Whirl lets you design and streamline <br> your everyday tasks and workflows <br>in just a few clicks.</div>
-    <div class="main-block__buttons">
-      <a href="" class="main-block__button">Book a demo</a>
-      <a href="" class="main-block__button main-block__button_mini">Learn more</a>
-    </div>
-  </div>
-  </div>
-  <div class="main-bllock__image">
-    <img src="img/main_img.png" alt="main_img">
-  </div>
-</div>
-      </main>
-      <footer class="footer">
+      </div>
 
-      </footer>
+<!--Мобильное меню-->
+
+
+    </div>     
+  </header>
+    <!-- Первый блок с баннером -->
+  <main class="page">
+    <div class="page__main-block main-block">  
+      <div class="main-block__container container">
+        <div class="main-block__body">
+          <h1 class="main-block__title">Your everyday 
+            tasks, automated.</h1>
+          <div class="main-block__text">Whirl lets you design and streamline
+            your everyday tasks and workflows
+            in just a few clicks.</div>
+          <div class="main-block__buttons">
+            <a href="#" class="main-block__button btn-blue">Book a demo</a>
+            <a href="#" class="main-block__button main-block__button_mini">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <div class="main-bllock__image">
+        <img src="img/main_img.png" alt="main_img">
+      </div>
     </div>
-    <script src="js/script.js"></script>
+
+    <!-- Блок с 4 колонками -->
+    <div class="4colums">
+      <div class="container">
+
+      </div>
+    </div>
+  </main>
+
+  <!-- ПОДВАЛ -->
+  <footer class="footer">
+    <div class="container">
+
+    </div>
+  </footer>
+  <!-- </div> -->
+  <script src="js/script.js"></script>
   </body>
 </html>
