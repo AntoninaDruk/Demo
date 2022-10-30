@@ -2,6 +2,7 @@
   font-family: sans-serif, "Inter";
   font-weight: 400;
   font-size: 15px;
+  box-sizing: border-box;
 }
 /*.wrapper {
   min-height: 100%;
@@ -45,15 +46,18 @@
   content: ">"
 }
 .header {
-  /* position: absolute; 
+  position: fixed;
+  top:0; 
+  left:0 ;
   width: 100%;
-  z-index: 50; */
+  z-index: 50; 
 }
 .header__container {
   display: flex;
   min-height: 80px;
   justify-content: space-between;
   align-items: center;
+  background-color:#FFF;
 }
 
 .header__logo {
@@ -99,6 +103,13 @@
 .btn-blue{
   background-color:#0070A0;
   color: #ffffff;
+}
+.hamb {
+  display: none;
+}
+
+.popup {
+  display: none;
 }
 
 /*-------------------------------MAIN-----------------------------------*/
