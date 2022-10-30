@@ -7,8 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Inter&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>Artemke</title>
   </head>
   <body>
@@ -25,13 +26,13 @@
       </div>
     </div>
     <div class="container">
-    <!-- Меню навигации -->
-      <div class="header__container">
-        <nav class="header__menu menu">
+      <!-- Меню навигации -->
+      <div class="header__container" id="menu">
+        <nav class="header__menu">
           <a href="#" class="header__logo">
             <img src="img/icons/logo2.png" alt="logo">
           </a>
-          <ul class="menu__list">
+          <ul class="menu__list" >
             <li class="menu__item">
               <a href="#" class="menu__link">Features</a>
             </li>
@@ -50,11 +51,18 @@
           <a href="#" class="header__button">Sign in</a>
           <a href="#" class="header__button-buy btn-blue">Book a demo</a>
         </div>
+        <!-- Гамбургер -->
+        <div class="hamb">
+          <div class="hamb__field" id="hamb">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
       </div>
-
-<!--Мобильное меню-->
-
-
+      
+      <!--Поп-ап меню-->
+      <div class="popup open" id="popup"></div>
     </div>     
   </header>
     <!-- Первый блок с баннером -->

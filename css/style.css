@@ -2,6 +2,7 @@
   font-family: sans-serif, "Inter";
   font-weight: 400;
   font-size: 15px;
+  box-sizing: border-box;
 }
 /*.wrapper {
   min-height: 100%;
@@ -45,15 +46,18 @@
   content: ">"
 }
 .header {
-  /* position: absolute; 
+  position: fixed;
+  top:0; 
+  left:0 ;
   width: 100%;
-  z-index: 50; */
+  z-index: 50; 
 }
 .header__container {
   display: flex;
   min-height: 80px;
   justify-content: space-between;
   align-items: center;
+  background-color:#FFF;
 }
 
 .header__logo {
@@ -65,12 +69,19 @@
   justify-content: space-between;
   align-items: center;
 }
-
+/*.header__menu::before{
+  content: url("../img/icons/logo1.png");
+  margin-right: 10px;
+}*/
 .header__logo::before {
   content: url("../img/icons/logo1.png");
   margin-right: 10px;
 }
-
+/*.menu__flex{
+  display: flex;
+  width: 100%;
+  display: flex;
+}*/
 .menu__list {
   display: flex;
   margin-left: 34px;
@@ -78,7 +89,7 @@
 
 .menu__item {
 }
-.menu__item:not(:last-child) {
+.menu__item/*:not(:last-child)*/ {
   margin: 0px 24px 0px 0px;
 }
 
@@ -86,19 +97,37 @@
   color: #33383f;
   line-height: 171%;
 }
-
+.menu__link:hover{
+  color:#0070A0;
+}
 .header__button{
   position: relative;
-  right: 31px;
   color:#0070A0;
   line-height: 135%;
+  padding: 4px 30px;
 }
+.header__button:hover{
+border: 2px solid #0070A0;
+}
+
 .header__button-buy{
-  padding: 6px 20px;
+  padding: 4px 20px;
 }
 .btn-blue{
   background-color:#0070A0;
   color: #ffffff;
+}
+.btn-blue:hover{
+  background-color:#ffffff;
+  color: #0070A0;
+  border: 2px solid #0070A0;
+}
+.hamb {
+  display: none;
+}
+
+.popup {
+  display: none;
 }
 
 /*-------------------------------MAIN-----------------------------------*/
