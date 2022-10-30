@@ -49,9 +49,7 @@
     padding: 50px 0;
     overflow: auto;
   }
-  .popup__header-buttons{
-    display: flex;
-  }
+
   .popup .menu__list > li {
     width: 100%;
     margin: 0px 24px 0px 0px;
@@ -69,10 +67,6 @@
 
   .popup .menu__list > li > a:hover {
     background-color: rgba(122, 82, 179, 0.1);
-  }
-  .popup .menu__list .header__buttons{
-    display: flex;
-    background-color:aqua
   }
 
   .hamb__field.active .bar:nth-child(2) {
