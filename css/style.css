@@ -1,5 +1,5 @@
 *{
-  font-family: sans-serif, "Inter";
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 15px;
   box-sizing: border-box;
@@ -58,6 +58,7 @@
   justify-content: space-between;
   align-items: center;
   background-color:#FFF;
+  margin-bottom: 54px;
 }
 
 .header__logo {
@@ -106,7 +107,7 @@
   line-height: 135%;
   padding: 4px 30px;
 }
-.header__button:hover{
+.btn-white:hover{
 border: 2px solid #0070A0;
 }
 
@@ -132,32 +133,42 @@ border: 2px solid #0070A0;
 
 /*-------------------------------MAIN-----------------------------------*/
 .main {
-  flex: 1 1 auto;
+  /*тут все блоки*/
+  /* flex: 1 1 auto;* - Я туплю, для чего ты это сделала?*/
 }
+.one_block{
+/*первый блок, сюда цвет обложки кидаем*/
+margin-top: 123px; /*43+80*/
+}
+
+
 .page {
-  display: flex;
+  /*display: flex;
   min-height: 565px;
   width: 1120px;
   align-content: space-between;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: beige;
-  margin: 123px auto;
+  background-color: beige;*/
+   margin: 123px auto;
 }
 
-.page__main-block {
+/*.page__main-block {
   display: flex;
-}
+}*/
 .main-block__body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
+  width: 455px;
 }
 
-.main-block__container {
+.main-block__content{
   display: flex;
+  padding-top: 54px;
+  column-gap: 225px;
 }
 
 .main-block__title {
@@ -166,20 +177,44 @@ border: 2px solid #0070A0;
   font-weight: 400;
   font-size: 58px;
   line-height: 64px;
-  /* or 110% */
+  /* or 89% 64px*/
   letter-spacing: 0.2px;
+  vertical-align:top;
+  color:#1F1F1F;
+
 }
 
 .main-block__text {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
+  /*font-family: "Inter";- поставила по умолчанию
+  font-style: normal; 
+  font-weight: 400;*/
   font-size: 20px;
   line-height: 30px;
-  /* or 150% */
+  /* or 124% */
   letter-spacing: 0.2px;
+  width: 350px;
+  vertical-align:top;
+  color:#1F1F1F;
 }
 .main-block__buttons {
+  
 }
-
+.main-block__button{
+  padding: 8px 32px;
+  font-size: 17px;
+}
+.main-block__button:last-child::after{
+  content:url("data:image/svg+xml,%3Csvg width='11' height='20' viewBox='0 0 11 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.34314 1.1001L9.68628 9.86039L1.34314 18.6207' stroke='%23006B99' stroke-width='1.6'/%3E%3C/svg%3E%0A");
+  vertical-align: top;
+  position: relative;
+  left: 8px;
+}
+.main-block__image{
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.main-block__image img{
+  max-width: 100%;
+  min-width:250px ;
+}
 /*------------------------------ПОДВАЛ-----------------------------------*/

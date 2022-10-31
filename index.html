@@ -7,6 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Inter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Добавила начертание "вонк", "пляшущие буквы" -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,WONK@9..144,1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
@@ -48,7 +52,7 @@
           </ul>
         </nav>
         <div class="header__buttons">
-          <a href="#" class="header__button">Sign in</a>
+          <a href="#" class="header__button btn-white">Sign in</a>
           <a href="#" class="header__button-buy btn-blue">Book a demo</a>
         </div>
         <!-- Гамбургер -->
@@ -65,26 +69,29 @@
       <div class="popup open" id="popup"></div>
     </div>     
   </header>
-    <!-- Первый блок с баннером -->
+
   <main class="page">
-    <div class="page__main-block main-block">  
-      <div class="main-block__container container">
-        <div class="main-block__body">
-          <h1 class="main-block__title">Your everyday 
-            tasks, automated.</h1>
-          <div class="main-block__text">Whirl lets you design and streamline
-            your everyday tasks and workflows
-            in just a few clicks.</div>
-          <div class="main-block__buttons">
-            <a href="#" class="main-block__button btn-blue">Book a demo</a>
-            <a href="#" class="main-block__button main-block__button_mini">Learn more</a>
+    <!-- Первый блок с баннером -->
+    <section class="one_block">
+      <div class="container">  
+        <div class="main-block__content">
+          <div class="main-block__body">
+            <h1 class="main-block__title">Your everyday 
+              tasks, automated.</h1>
+            <p class="main-block__text">Whirl lets you design and streamline
+              your everyday tasks and workflows in just a few clicks.</p>
+            <div class="main-block__buttons">
+              <a href="#" class="main-block__button btn-blue">Book a demo</a>
+              <a href="#" class="main-block__button btn-white">Learn more</a>
+            </div>
           </div>
+          <div class="main-block__image">
+            <img src="img/main_img.png" alt="main_img">
+          </div>  
         </div>
       </div>
-      <div class="main-bllock__image">
-        <img src="img/main_img.png" alt="main_img">
-      </div>
-    </div>
+    </section>
+    
 
     <!-- Блок с 4 колонками -->
     <div class="4colums">
