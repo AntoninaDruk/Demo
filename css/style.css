@@ -207,8 +207,6 @@
   left: 8px;
 }
 .main-block__image {
-  flex-grow: 1;
-  flex-shrink: 1;
 }
 .main-block__image img {
   max-width: 100%;
