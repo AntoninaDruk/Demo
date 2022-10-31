@@ -168,7 +168,7 @@ margin-top: 123px; /*43+80*/
 .main-block__content{
   display: flex;
   padding-top: 54px;
-  column-gap: 225px;
+ justify-content: space-between;
 }
 
 .main-block__title {
@@ -210,8 +210,8 @@ margin-top: 123px; /*43+80*/
   left: 8px;
 }
 .main-block__image{
-  flex-grow: 1;
-  flex-shrink: 1;
+  /*flex-grow: 1;
+  flex-shrink: 1;*/
 }
 .main-block__image img{
   max-width: 100%;
