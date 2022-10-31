@@ -168,7 +168,7 @@ margin-top: 123px; /*43+80*/
 .main-block__content{
   display: flex;
   padding-top: 54px;
-  column-gap: 225px;
+  justify-content:space-between;
 }
 
 .main-block__title {
