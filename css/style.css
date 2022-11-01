@@ -108,7 +108,8 @@
   padding: 4px 30px;
 }
 .btn-white:hover{
-border: 2px solid #0070A0;
+background-color:#0070A0;
+color: #fff;
 }
 
 .header__button-buy{
