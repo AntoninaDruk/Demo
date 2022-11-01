@@ -267,7 +267,6 @@
 }
 .infoBlock {
   display: flex;
-  flex-direction: column +;
 }
 .info,
 .admin,
