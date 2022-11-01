@@ -1,0 +1,95 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1130px;
+  margin: 0px auto;
+  height: 700px;
+}
+/*---------------------------------------ПЕРВЫЙ ДОП БЛОК-----------------------------------------*/
+.containerColor-Block{
+    padding: 130px 0px 130px 0px;
+}
+.blockArticle {
+  font-size: 25px;
+  margin: 13px 0px 13px 0px;
+}
+
+.blockContent {
+  display: flex;
+  margin: 0px auto;
+  flex-direction: column;
+  align-items: center;
+  max-height: 385px;
+  margin-bottom: 140px;
+}
+.colorBlocks-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.colorBlock {
+  display: flex;
+  flex-direction: column;
+  width: 355px;
+  height: 250px;
+  justify-content: center;
+  padding-left: 32px;
+}
+.colorBlock-img1 {
+  max-width: 35px;
+  max-height: 45px;
+}
+.colorBlock-img2 {
+  max-width: 41px;
+  max-height: 41px;
+}
+.colorBlock-img3 {
+  max-width: 36px;
+  max-height: 40px;
+}
+.color1 {
+  background-color: #faea73;
+}
+.color2 {
+  background-color: #cceff6;
+}
+.color3 {
+  background-color: #f7cedc;
+}
+.colorBlock-text {
+  line-height: 24px;
+}
+.companies {
+  margin-bottom: 23px;
+  font-size: 24px;
+  line-height: 37.5px;
+}
+/*---------------------------------------ВТОРОЙ ДОП БЛОК-----------------------------------------*/
+
+.bg-Grey{
+    display: flex;
+    height: 700px;
+    background-color: #F7F9FA;
+}
+.bg-Grey__content{
+    display: flex;
+    flex-direction: row;
+}
+.bg-Grey__contentText{
+    display: flex;
+    flex-direction: column;
+}
+.bg-Grey__contentImg{
+    display: flex;
+}
+.bg-Grey_textBig {
+    font-size: 42px;
+}
+.computer{
+    display: flex;
+    margin-top: 50px;
+}
