@@ -269,7 +269,7 @@
 }
 .infoBlock {
   display: flex;
-  flex-direction: column +;
+  flex-direction: column;
 }
 .info,
 .admin,
@@ -313,7 +313,7 @@
 .footer-data {
   margin-top: 36px;
 }
-.socialImg{
+.socialImg {
   margin-top: 20px;
   margin-left: 20px;
 }
