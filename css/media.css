@@ -217,4 +217,8 @@
 font-size: 16px;
 margin-bottom: 25px;
 width: 100%;
-}}
+}
+.main-block__button {
+    padding: 8px 16px;
+}
+}
