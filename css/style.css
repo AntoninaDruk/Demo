@@ -107,8 +107,10 @@
   line-height: 135%;
   padding: 4px 30px;
 }
-.btn-white:hover {
-  border: 2px solid #0070a0;
+
+.btn-white:hover{
+background-color:#0070A0;
+color: #fff;
 }
 
 .header__button-buy {
@@ -167,7 +169,7 @@
 .main-block__content {
   display: flex;
   padding-top: 54px;
-  justify-content: space-between;
+ justify-content: space-between;
 }
 
 .main-block__title {
@@ -206,9 +208,8 @@
   position: relative;
   left: 8px;
 }
-.main-block__image {
-  flex-grow: 1;
-  flex-shrink: 1;
+
+.main-block__image{
 }
 .main-block__image img {
   max-width: 100%;
@@ -269,7 +270,6 @@
 }
 .infoBlock {
   display: flex;
-  flex-direction: column;
 }
 .info,
 .admin,
