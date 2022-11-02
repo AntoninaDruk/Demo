@@ -27,15 +27,15 @@ const Header = () => {
                         <a href="#" class="header__button btn-white">Sign in</a>
                         <a href="#" class="header__button-buy btn-blue">Book a demo</a>
                     </div>
-                    <div class="hamb">
-                        <div class="hamb__field" id="hamb">
-                            <span class="bar"></span>
-                            <span class="bar"></span>
-                            <span class="bar"></span>
+                    <div className="hamb">
+                        <div className="hamb__field" id="hamb">
+                            <span className="bar"></span>
+                            <span className="bar"></span>
+                            <span className="bar"></span>
                         </div>
                     </div>
                 </div>
-                <div class="popup open" id="popup"></div>
+                <div className="popup open" id="popup"></div>
 
             </div>
         </header>
