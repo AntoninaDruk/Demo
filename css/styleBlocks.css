@@ -10,8 +10,8 @@
   height: 700px;
 }
 /*---------------------------------------ПЕРВЫЙ ДОП БЛОК-----------------------------------------*/
-.containerColor-Block{
-    padding: 130px 0px 130px 0px;
+.containerColor-Block {
+  padding: 130px 0px 130px 0px;
 }
 .blockArticle {
   font-size: 25px;
@@ -70,26 +70,126 @@
 }
 /*---------------------------------------ВТОРОЙ ДОП БЛОК-----------------------------------------*/
 
-.bg-Grey{
-    display: flex;
-    height: 700px;
-    background-color: #F7F9FA;
+.bg-Grey {
+  display: flex;
+  height: 750px;
+  background-color: #f7f9fa;
 }
-.bg-Grey__content{
-    display: flex;
-    flex-direction: row;
+.bg-Grey__content {
+  display: flex;
+  flex-direction: row;
 }
-.bg-Grey__contentText{
-    display: flex;
-    flex-direction: column;
+.bg-Grey__contentText {
+  display: flex;
+  flex-direction: column;
 }
-.bg-Grey__contentImg{
-    display: flex;
+.bg-Grey__contentImg {
+  display: flex;
 }
 .bg-Grey_textBig {
-    font-size: 42px;
+  font-size: 42px;
 }
-.computer{
-    display: flex;
-    margin-top: 50px;
+.computer {
+  display: flex;
+  margin-top: 50px;
+}
+/*-----------------------------------БЛОК WHAT'S ABOUT---------------------------------------*/
+.containerS {
+  /*высота блока меньше чем у контейнера обычного*/
+  max-width: 1130px;
+  margin: 0px auto;
+  height: 460px;
+}
+
+.whatsAbout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.whatsAbout__title-title {
+  font-size: 42px;
+  font-family: Fraunces;
+  font-weight: 400;
+  padding-top: 119px;
+}
+
+.whatsAbout__title {
+  display: flex;
+  min-width: 250px;
+}
+.whatsAbout__text {
+  display: flex;
+  flex-direction: row;
+  padding-left: 130px;
+  padding-right: 150px;
+  min-width: 1000px;
+  align-items: center;
+  justify-content: space-around;
+}
+.whatsAbout__textColumn {
+  display: flex;
+  flex-direction: column;
+  max-height: 220px;
+  max-width: 220px;
+  padding-bottom: 60px;
+}
+.whatsAbout__textColumn0 {
+  display: flex;
+  flex-direction: column;
+  max-height: 220px;
+  max-width: 220px;
+  margin-top: 30px;
+}
+.whatsAbout__textTitle {
+  font-size: 25px;
+}
+.whatsAbout__textMain {
+  line-height: 24px;
+  font-size: 16px;
+  margin-top: 13px;
+}
+.imgBefore1::before {
+  content: url(/img/before/magnificat.png);
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 16px;
+}
+.imgBefore2::before {
+  content: url(/img/before/graph.png);
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 16px;
+}
+/*-----------------------------------BLUE BLOCK-------------------------------------*/
+.containerM {
+  /*высота блока меньше чем у контейнера обычного*/
+  max-width: 1130px;
+  margin: 0px auto;
+  height: 550px;
+  display: flex;
+}
+.blueBlock {
+  max-width: 100%;
+  height: 550px;
+  background-color: #0070a0;
+}
+.blueBlock__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blueBlock__contentText{
+  display: flex;
+  margin-top: 80px;
+  margin-right: 155px;
+}
+.blueBlock__contentTitle{
+  font-size: 42px;
+  font-family: Fraunces;
+  font-weight: 400;
+  line-height: 50px;
+  color: #FFFFFF;
 }
