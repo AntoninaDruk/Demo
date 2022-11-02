@@ -15,6 +15,7 @@
 .container {
   max-width: 1130px;
   margin: 0px auto;
+  padding: 10px;
 } /*Контейнер лучше на все элементы вешать, для более легкой адаптации*/
 
 /*------------------------------ШАПКА------------------------------------*/
@@ -53,6 +54,13 @@
   width: 100%;
   z-index: 50;
 }
+.header .container{
+  padding: 0px 10px;
+}
+.header div:nth-of-type(2){
+  background-color: #fff;
+}
+
 .header__container {
   display: flex;
   min-height: 80px;
@@ -60,6 +68,7 @@
   align-items: center;
   background-color: #fff;
   margin-bottom: 65px;
+  padding-top: 0px;
 }
 
 .header__logo {
@@ -108,7 +117,9 @@
   line-height: 135%;
   padding: 4px 30px;
 }
-
+.btn-white{
+  color:#0070A0;
+}
 .btn-white:hover{
 background-color:#0070A0;
 color: #fff;
@@ -142,6 +153,7 @@ color: #fff;
 .one_block {
   /*первый блок, сюда цвет обложки кидаем*/
   padding-top: 123px; /*43+80*/
+  margin-bottom: 68px;
 }
 
 .page {
@@ -221,6 +233,13 @@ color: #fff;
 .columns4 {
   padding-top: 123px;
   margin-bottom: 120px;
+  position: relative;
+  top: -123px;
+}
+
+.columns4 .container{
+  border: 2px solid #0070a0;
+  padding-bottom: 60px;
 }
 .clmn4__wrapper-content{
   padding-top: 50px; 
@@ -243,7 +262,9 @@ color: #fff;
 .clmn4-footer {
   display: flex;
   justify-content: space-between;
+  column-gap: 10px;
 }
+
 .clmn4-footer__title {
   font-family: "Fraunces";
   font-size: 25px;
@@ -252,10 +273,12 @@ color: #fff;
 }
 .clmn4-footer__text{
   color:#1F1F1F;
+  margin-bottom:10px;
 }
 .clmn4-wrapper {
   display: flex;
   flex-direction: column;
+  flex-grow: 0.25;
   max-width: 240px;
 }
 .clmn4-wrapper:hover {
