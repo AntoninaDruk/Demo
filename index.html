@@ -32,7 +32,7 @@
       <!-- Меню навигации -->
       <div class="header__container" id="menu">
         <nav class="header__menu">
-          <a href="#" class="header__logo">
+          <a href="#mainpage" class="header__logo">
             <img src="img/icons/logo2.png" alt="logo">
           </a>
           <ul class="menu__list" >
@@ -43,7 +43,7 @@
               <a href="#" class="menu__link">Pricing</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">Integrations</a>
+              <a href="#columns4"class="menu__link">Integrations</a>
             </li>
             <li class="menu__item">
               <a href="#" class="menu__link">Learn</a>
@@ -71,7 +71,7 @@
 
   <main class="page">
     <!-- Первый блок с баннером -->
-    <section class="one_block">
+    <section class="one_block" id="mainpage">
       <div class="container">  
         <div class="main-block__content">
           <div class="main-block__body">
@@ -93,105 +93,119 @@
     
 
     <!-- Блок с 4 колонками -->
-    <div class="columns4"> <!--Кать, поменяла Colums4 на ColumNs4.-->
-      <div class="container">
+      <section class="columns4" id="columns4"><!--Изменила тэг-->
+        <div class="container">
+          <div class="clmn4__wrapper-content">
+            <div class="clmn4__text"><!--верхний текст-->
+              <h2 class="clmn4-block__title">Your tasks, automated.</h1>
+              <p class="clmn4-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="clmn4-footer"> <!--нижние колонки-->
+              <a href= "#" alt="new__page"class="clmn4-wrapper"> <!--Переход на замещающий блок-->
+                <img src="img/4clmns/1.png" class="clmn-logo" alt="main_img">
+                <article class="clmn4__content">
+                  <h3 class="clmn4-footer__title">Learn your options.</h3>
+                  <p class="clmn4-footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor.</p>
+                </article>
+              </a>
+              <a href= "#" class="clmn4-wrapper">
+                <img src="img/4clmns/2.png" class="clmn-logo" alt="main_img"> <!--Значки все одинаковые, не надо было так заморачиваться. Иначе стоят не ровно-->
+                <article class="clmn4__content">
+                  <h3 class="clmn4-footer__title">Stay informed.</h3>
+                  <p class="clmn4-footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et doloretro.</p>
+                </article>
+              </a>
+              <a href= "#" class="clmn4-wrapper">
+                <img src="img/4clmns/3.png" class="clmn-logo" alt="main_img">
+                <article class="clmn4__content">
+                  <h3 class="clmn4-footer__title">Automate it all.</h3>
+                  <p class="clmn4-footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor ipsum.</p>
+                </article>
+              </a>
+              <a href= "#" class="clmn4-wrapper">
+                <img src="img/4clmns/4.png" class="clmn-logo" alt="main_img">
+                <article class="clmn4__content">
+                  <h3 class="clmn4-footer__title">Stay informed.</h3>
+                  <p class="clmn4-footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod incididunt ut labore et consectetur. </p>
+                </article>
+              </a>
+            </div>
+          </div>
+        </div>
+    </section>
 
-        <div class="clmn4__text"><!--верхний текст-->
-          <h2 class="clmn4-block__title">Your tasks, automated.</h1>
-        <p class="clmn4-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <div class="clmn4-footer"> <!--нижние колонки-->
-        <div class="clmn4-wrapper">
-          <img src="img/4clmns/1.png" class="clmn-logo" alt="main_img">
-<h3 class="clmn4-footer__title">
-  Learn your options.
-</h3>
-<p class="clmn4-footer__text">
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-</p></div>
-<div class="clmn4-wrapper">
-  <img src="img/4clmns/2.png" class="clmn-logoLightning" alt="main_img"> <!--значок с молнией меньше остальных-отдельный класс-->
-<h3 class="clmn4-footer__title">
-  Stay informed.
-</h3>
-<p class="clmn4-footer__text">
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et doloretro.
-</p></div>
-<div class="clmn4-wrapper">
-  <img src="img/4clmns/3.png" class="clmn-logo" alt="main_img">
-<h3 class="clmn4-footer__title">
-  Automate it all.
-</h3>
-<p class="clmn4-footer__text">
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ipsum.
-</p></div>
-<div class="clmn4-wrapper">
-  <img src="img/4clmns/4.png" class="clmn-logo" alt="main_img">
-<h3 class="clmn4-footer__title">
-  Stay informed.
-</h3>
-<p class="clmn4-footer__text">
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut labore et consectetur.
-</p></div>
-      </div>
-    </div>
-    </div>
   </main>
 
   <!-- ПОДВАЛ -->
   <footer class="footer">
+    <!-- Верхняя часть подвала 4 колонки -->
     <div class="container footer__wrapper">
-<div class="whirl">
-  <a href="#" class="header__logo">
-    <img src="img/icons/logo2.png" alt="logo">
-  </a>
-  <p>Built by<a href="#" class="transition">Nikolai Bain</a>
-  </p> 
-  <p>Powered by<a href="#" class="transition">Webflow</a>
-  </p> 
-</div>
-<div class="infoBlock">
-<div class="info">
-<h3 class="footer-title">Info</h3>
-<p class="footer-text">Features</p>
-<p class="footer-text">Pricing</p>
-<p class="footer-text">Blog</p>
-<p class="footer-text">Support</p>
-<p class="footer-text">Terms & Conditions</p>
-<p class="footer-text">Privacy Policy</p>
-</div>
-<div class="admin">
-  <h3 class="footer-title">Admin</h3>
-  <p class="footer-text">Style Guide</p>
-<p class="footer-text">Licenses</p>
-<p class="footer-text">Instructions</p>
-<p class="footer-text">Changelog</p>
-<p class="footer-text">Password</p>
-<p class="footer-text">404</p>
-</div>
-<div class="newsletter">
-  <h3 class="footer-title">Newsletter</h3>
-  <p class="footer-title">Sign up for the latest <br> news, company insights, <br> and Whirl updates.</p>
-<div class="footer__btn">
-  <form method="post" class="new_form">
-   <input type="email" name="login" placeholder="Your email:">
-  </form>
-  <div class="lineEmail"></div>
-</div>
-</div>
+      <div class="whirl">
+        <a href="#" class="header__logo">
+          <img src="img/icons/logo2.png" alt="logo">
+        </a>
+        <p>Built by
+          <a href="https://www.nikolaibain.com" class="transition">Nikolai Bain</a>
+        </p> 
+        <p>Powered by
+          <a href="https://webflow.com" class="transition">Webflow</a>
+        </p> 
+      </div>
+      <div class="infoBlock">
+        <div class="info">
+          <h3 class="footer-title">Info</h3>
+          <a href="#" class="footer-text">Features</a>
+          <a href="#" class="footer-text">Pricing</a>
+          <a href="#" class="footer-text">Blog</a>
+          <a href="#" class="footer-text">Support</a>
+          <a href="#" class="footer-text">Terms & Conditions</a>
+          <a href="#" class="footer-text">Privacy Policy</a>
+        </div>
+        <div class="admin">
+          <h3 class="footer-title">Admin</h3>
+          <a href="#" class="footer-text">Style Guide</a>
+          <a href="#" class="footer-text">Licenses</a>
+          <a href="#" class="footer-text">Instructions</a>
+          <a href="#" class="footer-text">Changelog</a>
+          <a href="#" class="footer-text">Password</a>
+          <a href="#" class="footer-text">404</a>
+        </div>
+        <div class="newsletter">
+          <h3 class="footer-title">Newsletter</h3>
+          <p class="footer-title">Sign up for the latest  news,
+          company insights,
+          and Whirl updates.</p>  
+          <div class="footer__btn">
+            <form method="post" class="new_form" id="form">
+              <input type="email" name="login" placeholder="Your email:" class="email" required>
+              <input type="submit" id="submit" value=">">
+            </form>
+            <div class="lineEmail"></div> 
+          </div>
+        </div>
+      </div>
+    </div> 
+
+  <!-- <div class="lineEmail container"></div> - Заменила на стиль границы блока-->
+  <!-- Нижняя часть подвала -->
+    <div class="data container">
+      <p class="footer-data">© 2022 Whirl. All Rights Reserved. Illustrations by
+          <a href="#" class="transition">Streamline</a>
+      </p>
+      <div class="social">
+        <a href="twitter.com" class="socialmedia invert"> </a><img src="img/footer/tw.png" class="socialImg" alt="twitter">
+        <a href="lidekin.com" class="socialmedia invert"> </a><img src="img/footer/li.png" class="socialImg" alt="linkedin">
+        <a href="#" class="socialmedia invert"> </a><img src="img/footer/fb.png" class="socialImg" alt="facebook"> <!--- Принадлежащий экстремисткой организации, запрещенной в России (вдруг проект попадет случайно не туда) -->
+      </div>
     </div>
-   </div> 
-   <div class="lineEmail container"></div>
-   <div class="data container">
-    <p class="footer-data">© 2022 Whirl. All Rights Reserved. Illustrations by <a href="#" class="transition">Streamline</a></p>
-   <div class="social">
-    <img src="img/footer/tw.png" class="socialImg" alt="twitter">
-    <img src="img/footer/li.png" class="socialImg" alt="linkedin">
-    <img src="img/footer/fb.png" class="socialImg" alt="facebook">
-   </div>
-  </div>
   </footer>
-  <!-- </div> -->
+
+<!-- JS для бургер-меню-->
   <script src="js/script.js"></script>
   </body>
 </html>
