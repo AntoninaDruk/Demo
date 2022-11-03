@@ -67,7 +67,6 @@
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
-  margin-bottom: 65px;
   padding-top: 0px;
 }
 
@@ -232,7 +231,6 @@ color: #fff;
 /*-----------------------------4-КОЛОНКИ---------------------------------*/
 .columns4 {
   padding-top: 123px;
-  margin-bottom: 120px;
   position: relative;
   top: -123px;
 }
@@ -293,8 +291,10 @@ color: #fff;
 
 /*------------------------------ПОДВАЛ-----------------------------------*/
 footer{
-  padding: 128px 0 32px 0;
-  padding-bottom: 32px; 
+  padding-bottom:30px;
+  position: relative;
+  top:-100px;
+
 }
 .whirl{
   flex-grow: 4;
@@ -371,10 +371,8 @@ display: inline-block;
 
 
 /*----------------------Линия EMAIL-----------------------------*/
-.lineEmail {
-  border-top: 1px solid #c2cdd8;
-  flex-grow: 1;
-  margin-top: 7px;
+.new_form{
+  border-bottom: 1px solid #c2cdd8;
 }
 /*-----------------------САМЫЙ НИЗ-----------------------------*/
 .data {

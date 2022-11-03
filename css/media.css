@@ -210,7 +210,61 @@
 
   .columns4 .container {
   padding-bottom: 30px;
-}}
+}
+/*------------Подвал---------------*/
+footer {
+  top: 0px;
+}
+.footer__wrapper{
+  gap: 10px;
+}
+.infoBlock{
+  gap: 10px;
+}
+.whirl .header__logo{
+  margin-bottom: 10px;
+}
+.whirl .header__logo>img{
+max-width: 60%;
+max-width: 40%;
+align-self: flex-start;
+}
+.whirl .header__logo::before{
+  content: '';
+  background-image: url(../img/icons/logo1.png);
+  width: 25px;
+  height: 25px;
+  align-self: flex-start;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  }
+
+.whirl p{
+  margin-bottom: 5px;
+  font-size: 14px;
+  width: 100px;
+}
+.info{
+  border-left: 1px solid #0070A0;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.admin{
+  border-left: 1px solid #0070A0;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.admin a:hover{
+  background-color: rgba(122, 82, 179, 0.1);
+}
+.info a:hover{
+  background-color: rgba(122, 82, 179, 0.1);
+}
+
+}
+
+
 
 @media(max-width: 710px){
   .main-block__content {
@@ -241,7 +295,16 @@
   padding: 8px 22px;
   font-size: 15px;
 }
+.footer-data {
+  text-align: center;
 }
+.data{
+  justify-content: center;
+  border-top: none;
+  flex-wrap: wrap;
+}
+}
+
 
 @media(max-width: 560px){
 
@@ -318,4 +381,60 @@ width: 100%;
     .clmn4-footer__text:hover {
       color: #0070a0;
   }
+
+  /*---------Подвал--------*/
+  .footer__wrapper {
+    padding: 0 35px;}
+
+  .whirl{
+    display: flex;
+    justify-content: space-between;
+  }
+  .whirl .header__logo>img {
+    align-self: center;
+    max-width: 100%;
 }
+.whirl .header__logo::before {
+    width: 31px;
+    height: 36px;
+    align-self: center;
+    background-size: 100%;}
+
+  .whirl p {
+    width: 100%;
+  }
+.whirl__content{
+  
+}
+.infoBlock{
+  border-top: 1px solid #0070a0;
+  padding-top: 5px;
+}
+.admin,.info{
+  border-left: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+}
+
+@media(max-width: 535px){
+  .admin, .info{
+    border-left: 1px solid #0070A0;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    right: 30px;
+}
+.newsletter {
+  width: 100%; 
+  border-top: 1px solid #0070A0;
+  padding-top: 12px;
+  font-size: 14px;
+  }
+.new_form{
+  border-top: 1px solid #0070A0;
+  border-bottom: 1px solid #0070A0;
+}
+.data {
+   padding: 0 35px;
+}}
