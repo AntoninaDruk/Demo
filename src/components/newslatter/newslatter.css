@@ -1,0 +1,42 @@
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    width: 229px;
+}
+
+.footer-title {
+    margin-bottom: 16px;
+    color: #1f1f1f;
+
+}
+
+.transition {
+    color: #0070a0;
+  }
+  .email{
+    font-size: 13px;
+    width: 80%;
+    height: max-content;
+    padding: 5px 0;
+  }
+  
+  #submit{
+  display: inline-block;
+   width: max-content; 
+   color: #0070A0;
+   background-color:#fff;
+   font-size: 30px;
+   cursor:pointer;
+  }
+  
+  #form input:focus{
+    color: #0070a0;
+  }
+  
+  
+  /*----------------------Линия EMAIL-----------------------------*/
+  .lineEmail {
+    border-top: 1px solid #c2cdd8;
+    flex-grow: 1;
+    margin-top: 7px;
+  }

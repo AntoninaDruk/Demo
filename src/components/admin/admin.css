@@ -1,0 +1,19 @@
+.admin {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-title {
+    margin-bottom: 16px;
+    color: #1f1f1f;
+}
+
+.footer-text {
+    color: #626a72;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.footer-text:hover {
+    color: #1f1f1f;
+}

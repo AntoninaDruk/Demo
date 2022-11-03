@@ -1,0 +1,11 @@
+.transition {
+    color: #0070a0;
+  }
+
+  .footer-data {
+    margin-top: 36px;
+    font-size: 13px;
+  }
+  .footer-data a:hover{
+    font-weight: 700;
+  }

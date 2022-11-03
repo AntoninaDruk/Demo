@@ -1,0 +1,20 @@
+.whirl{
+    flex-grow: 4;
+  }
+  .whirl .header__logo {
+    margin-bottom: 28px;
+    display: flex;/*легко выровнять псевдоэлемент с помощью флекса, на родительский блок*/
+    align-items:center;
+  }
+
+  .header__logo::before {
+    content: url("logo1.png");
+    margin-right: 10px;
+  }
+
+  .transition {
+    color: #0070a0;
+    margin-left: 10px;
+  }
+
+  
