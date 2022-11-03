@@ -38,17 +38,27 @@
     z-index: 50;
 }
 
+.header .container {
+    padding: 0px 10px;
+}
+
+.header div:nth-of-type(2) {
+    background-color: #fff;
+}
+
 .header__container {
     display: flex;
     min-height: 80px;
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
-    margin-bottom: 65px;
 }
+
+
 .header__logo {
     display: contents;
 }
+
 .header__logo {
     display: contents;
 }
@@ -70,6 +80,10 @@
     color: #0070a0;
     line-height: 135%;
     padding: 4px 30px;
+}
+
+.btn-white {
+    color: #0070A0;
 }
 
 .btn-white:hover {
