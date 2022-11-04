@@ -1,6 +1,6 @@
 import "./hamburger.css";
 import { useState } from 'react';
-import Menulist from '../menu-list/menu-list';
+
 const Hamburger = () => {
     const [isActive, setActive] = useState(false);
 
@@ -18,16 +18,16 @@ const Hamburger = () => {
 
     return (
         <>
-            <div className={`hamb ${isActive ? "hamburger-active" : ""}`}
+            <div className={`hamb ${isActive ? "active" : ""}`}
                 onClick={openHam}>
-                <div className="hamb__field" id="hamb">
+                <div className={`hamb__field ${isActive ? "" : "active"}`} id="hamb">
                     <span className="bar"></span>
                     <span className="bar"></span>
                     <span className="bar"></span>
                 </div>
             </div>
-            <div className={`popup ${isActive ? "open" : ""}`} onClick={openHam} id="popup">
-                <ul className="menu__list " onClick={closeMenu}>
+            <div className={`popup ${isActive ? "open" : ""}`} id="popup">
+                <ul className="menu__list " onClick={closeMenu}> 
                     <li className="menu__item">
                         <a href="#" class="menu__link" onClick={closeMenu}>Features</a>
                     </li>
