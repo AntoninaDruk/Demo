@@ -1,6 +1,6 @@
 import Menulist from '../menu-list/menu-list';
 import Logo from "../../img/icons/logo2.png";
-
+import Hamburger from '../hamburger/hamburger';
 import "./header.css";
 
 const Header = () => {
@@ -27,15 +27,10 @@ const Header = () => {
                         <a href="#" class="header__button btn-white">Sign in</a>
                         <a href="#" class="header__button-buy btn-blue">Book a demo</a>
                     </div>
-                    <div className="hamb">
-                        <div className="hamb__field" id="hamb">
-                            <span className="bar"></span>
-                            <span className="bar"></span>
-                            <span className="bar"></span>
-                        </div>
-                    </div>
+                    <Hamburger/>
+                   
                 </div>
-                <div className="popup open" id="popup"></div>
+               
 
             </div>
         </header>

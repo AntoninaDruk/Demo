@@ -1,0 +1,19 @@
+.hamb {
+    display: none;
+    align-items: center;
+}
+
+.hamb__field {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 6px auto;
+    background-color: #000;
+    transition: 0.2s;
+}
+

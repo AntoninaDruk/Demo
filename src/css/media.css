@@ -68,6 +68,7 @@
     z-index: 100;
     display: flex;
     transition: 0.3s;
+    flex-direction: column;
   }
 
   .popup.open {
@@ -93,7 +94,6 @@
 
   .popup .menu__list {
     width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
