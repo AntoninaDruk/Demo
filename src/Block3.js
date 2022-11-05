@@ -1,4 +1,5 @@
 import thumbup from "./Img/3.png";
+import thumbup from "./Images/3.png";
 import Page3 from "./Page3";
 
 function Block3() {

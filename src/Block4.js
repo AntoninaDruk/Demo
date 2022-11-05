@@ -1,4 +1,5 @@
 import point from "./Img/4.png";
+import point from "./Images/4.png";
 import Page4 from "./Page4";
 
 function Block4() {

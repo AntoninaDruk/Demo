@@ -1,4 +1,5 @@
 import lighting from "./Img/2.png";
+import lighting from "./Images/2.png";
 import Page2 from "./Page2";
 
 function Block2() {

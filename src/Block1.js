@@ -1,4 +1,5 @@
 import branch from "./Img/1.png";
+import branch from "./Images/1.png";
 import Page1 from "./Page1";
 
 function Block1() {
