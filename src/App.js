@@ -18,7 +18,6 @@ import Page4 from './Page4';
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
-import "./App.css";
 import CommonBlocks from "./CommonBlocks";
 import Page1 from "./Page1";
 import Page2 from "./Page2";
@@ -30,8 +29,10 @@ function App() {
     <div>
       <Router>
         <CommonBlocks />
+        <Link to ="/"></Link>
 
         <Routes>
+        <Route path="/" element={<CommonBlocks/>} />
           <Route path="/page1" element={<Page1 />} />
           <Route path="/page2" element={<Page2 />} />
           <Route path="/page3" element={<Page3 />} />

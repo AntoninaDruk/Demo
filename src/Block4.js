@@ -8,7 +8,6 @@ function Block4() {
   return (
     <div>
       <main className="page">
-      
             <div className="clmn4__wrapper-content">
               <Link to="/page4" className="clmn4-wrapper">
                 <img src={point} className="clmn-logo" alt="main_img" />

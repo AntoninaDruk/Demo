@@ -10,7 +10,7 @@ import Block4 from "./Block4";
 function CommonBlocks() {
   return (
     <div>
-      <main className="page">
+
         <section className="columns4" id="columns4">
           <div className="container">
             <div className="clmn4__wrapper-content">
@@ -21,7 +21,6 @@ function CommonBlocks() {
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
               </div>
-
               <div className="clmn4-footer">
                 <Block1 />
                 <Block2 />
@@ -31,7 +30,6 @@ function CommonBlocks() {
             </div>
           </div>
         </section>
-      </main>
     </div>
   );
 }

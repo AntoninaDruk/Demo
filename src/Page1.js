@@ -1,20 +1,21 @@
-import christmas from "./Images/christmas.jpg"
+import computer from "./Images/computer.png";
+import './Page1.css'
 
 const Page1 = () => {
   return (
-    <div class="bg-Grey">
-    <div class="containerColor-Block container">
-      <div class="bg-Grey__content">
-        <div class="bg-Grey__contentText">
-          <p class="bg-Grey_textBig">
+    <div className="bg-Grey">
+    <div className="containerColor-Block container">
+      <div className="bg-Grey__content">
+        <div className="bg-Grey__contentText">
+          <p className="bg-Grey_textBig">
             We will take care of everything, <br />
             so you can get back to relaxing.
           </p>
         </div>
 
-        <div class="bg-Grey__contentImg">
-          <div class="computer">
-            <img src="../img//computer.png" alt="computer" />
+        <div className="bg-Grey__contentImg">
+          <div className="computer">
+            <img src={computer} alt="computer" />
           </div>
         </div>
       </div>
