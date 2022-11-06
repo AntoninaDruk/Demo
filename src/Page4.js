@@ -1,4 +1,4 @@
-function Page4() {
+const Page4 = () => {
     return ( 
       <div>
         <h1> PAGE 4</h1>
