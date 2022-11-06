@@ -31,21 +31,21 @@ const Hamburger = () => {
             <div className={`popup ${isActive ? "open" : ""}`} id="popup">
                 <ul className="menu__list " onClick={closeMenu}>
                     <li className="menu__item">
-                        <Link to="/" class="menu__link" onClick={closeMenu}>Features</Link>
+                        <Link end to="/" class="menu__link" onClick={closeMenu}>Features</Link>
                     </li>
                     <li className="menu__item">
-                        <Link to="/" class="menu__link" onClick={closeMenu}>Pricing</Link>
+                        <Link end to="/" class="menu__link" onClick={closeMenu}>Pricing</Link>
                     </li>
                     <li className="menu__item">
-                        <Link to="/" class="menu__link" onClick={closeMenu}>Integrations</Link>
+                        <Link end to="/" class="menu__link" onClick={closeMenu}>Integrations</Link>
                     </li>
                     <li className="menu__item">
-                        <Link to="learn" class="menu__link" onClick={closeMenu}>Learn</Link>
+                        <Link end to="learn" class="menu__link" onClick={closeMenu}>Learn</Link>
                     </li>
                 </ul>
                 <div className="header__buttons" onClick={closeMenu}>
-                    <Link to="/" className="header__button btn-white" onClick={closeMenu}>Sign in</Link>
-                    <Link to="/" className="header__button-buy btn-blue" onClick={closeMenu}>Book a demo</Link>
+                    <Link end to="/" className="header__button btn-white" onClick={closeMenu}>Sign in</Link>
+                    <Link end to="/" className="header__button-buy btn-blue" onClick={closeMenu}>Book a demo</Link>
                 </div>
 
             </div>

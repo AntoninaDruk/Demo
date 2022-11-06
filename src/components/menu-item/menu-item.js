@@ -5,7 +5,7 @@ function MenuItem({ name, link }) {
     return (
         <>
             <li className="menu__item">
-                <Link to={link} class="menu__link">{name}</Link>
+                <Link end to={link} class="menu__link">{name}</Link>
             </li>
         </>
     );

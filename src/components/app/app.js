@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from '../header/header';
 import Oneblock from '../one-block/one-block';
 import ColorBlocks from '../colorBlocks-container/colorBlocks-container';
@@ -11,14 +11,10 @@ function App() {
             <div className="app">
                 <Header />
                 <main>
-                    <Switch>
-                        <Route exact path="/">
-                            <Oneblock />
-                        </Route>
-                        <Route exact path="/learn">
-                            <ColorBlocks />
-                        </Route>
-                    </Switch>
+                    <Routes>
+                        <Route end path="/" element={<Oneblock />} />
+                        <Route end path="learn" element={<ColorBlocks />} />
+                    </Routes>
                 </main>
             </div>
         </Router>
