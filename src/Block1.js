@@ -1,10 +1,11 @@
+import {Link } from "react-router-dom";
 import branch from "./Images/1.png";
 import Page1 from "./Page1";
 
 function Block1() {
   return (
     <div>
-      <a href="#" className="clmn4-wrapper">
+      <Link to="/page1" className="clmn4-wrapper" >
         <img src={branch} className="clmn-logo" alt="main_img" />
         <article v="clmn4__content">
           <h3 className="clmn4-footer__title">Learn your options.</h3>
@@ -13,9 +14,12 @@ function Block1() {
             eiusmod tempor.
           </p>
         </article>
-      </a>
+        </Link>
     </div>
   );
 }
 
 export default Block1;
+
+
+{/* <Link to="/page1" className='link'>{<Block1/>}</Link> */}

@@ -13,6 +13,7 @@ import Block2 from './Block2';
 import Block3 from './Block3';
 import Block4 from './Block4';
 import CommonBlocks from './CommonBlocks';
+import Header from './Header';
 import Page1 from './Page1';
 import Page2 from './Page2';
 import Page3 from './Page3';
@@ -35,12 +36,13 @@ function App() {
 
     <div className="clmn4-footer">
     <Router>
-      <Link to="/page1">{<Block1/>}</Link>
-      <Link to="/page2">{<Block2/>}</Link>
-      <Link to="/page3">{<Block3/>}</Link>
-      <Link to="/page4">{<Block4/>}</Link>
+      <Block1/>
+      <Block2/>
+      <Block3/>
+      <Block4/>
 
       <Routes>
+      
       <Route path="/" element = { <CommonBlocks/> }/>
         <Route path="/page1" element = { <Page1/> }/>
         <Route path="/page2" element = { <Page2/> }/>

@@ -76,3 +76,15 @@
   max-width: 55px;
   max-height: 55px;
 }
+
+nav {
+  display:flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.link {
+  padding: 10px 40px;
+  text-decoration: none;
+  color: black;
+}
