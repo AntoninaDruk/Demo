@@ -1,5 +1,6 @@
 import "./one-block.css";
 import mainimg from "../../img/main_img.png";
+import { Link } from "react-router-dom";
 
 const Oneblock = () => {
     return (
@@ -13,8 +14,8 @@ const Oneblock = () => {
                             <p className="main-block__text">Whirl lets you design and streamline
                                 your everyday tasks and workflows in just a few clicks.</p>
                             <div className="main-block__buttons">
-                                <a href="#" class="main-block__button btn-blue">Book a demo</a>
-                                <a href="#" class="main-block__button btn-white">Learn more</a>
+                                <Link to="/" class="main-block__button btn-blue">Book a demo</Link>
+                                <Link to="learn" class="main-block__button btn-white">Learn more</Link>
                             </div>
                         </div>
                         <div className="main-block__image">

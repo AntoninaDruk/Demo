@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Menulist from '../menu-list/menu-list';
 import Logo from "../../img/icons/logo2.png";
 import Hamburger from '../hamburger/hamburger';
@@ -18,14 +19,14 @@ const Header = () => {
             <div className="container">
                 <div className="header__container" id="menu">
                     <nav className="header__menu">
-                        <a href="#mainpage" class="header__logo">
+                        <Link to="/" class="header__logo">
                             <img src={Logo} alt="logo" />
-                        </a>
+                        </Link>
                         <Menulist />
                     </nav>
                     <div className="header__buttons">
-                        <a href="#" class="header__button btn-white">Sign in</a>
-                        <a href="#" class="header__button-buy btn-blue">Book a demo</a>
+                        <Link to="/" class="header__button btn-white">Sign in</Link>
+                        <Link to="/" class="header__button-buy btn-blue">Book a demo</Link>
                     </div>
                     <Hamburger/>
                    

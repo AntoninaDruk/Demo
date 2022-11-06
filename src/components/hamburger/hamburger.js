@@ -1,5 +1,7 @@
 import "./hamburger.css";
 import { useState } from 'react';
+import { Link } from "react-router-dom";
+
 
 const Hamburger = () => {
     const [isActive, setActive] = useState(false);
@@ -27,23 +29,23 @@ const Hamburger = () => {
                 </div>
             </div>
             <div className={`popup ${isActive ? "open" : ""}`} id="popup">
-                <ul className="menu__list " onClick={closeMenu}> 
+                <ul className="menu__list " onClick={closeMenu}>
                     <li className="menu__item">
-                        <a href="#" class="menu__link" onClick={closeMenu}>Features</a>
+                        <Link to="/" class="menu__link" onClick={closeMenu}>Features</Link>
                     </li>
                     <li className="menu__item">
-                        <a href="#" class="menu__link" onClick={closeMenu}>Pricing</a>
+                        <Link to="/" class="menu__link" onClick={closeMenu}>Pricing</Link>
                     </li>
                     <li className="menu__item">
-                        <a href="#columns4" class="menu__link" onClick={closeMenu}>Integrations</a>
+                        <Link to="/" class="menu__link" onClick={closeMenu}>Integrations</Link>
                     </li>
                     <li className="menu__item">
-                        <a href="#" class="menu__link" onClick={closeMenu}>Learn</a>
+                        <Link to="learn" class="menu__link" onClick={closeMenu}>Learn</Link>
                     </li>
                 </ul>
                 <div className="header__buttons" onClick={closeMenu}>
-                    <a href="#" className="header__button btn-white" onClick={closeMenu}>Sign in</a>
-                    <a href="#" className="header__button-buy btn-blue" onClick={closeMenu}>Book a demo</a>
+                    <Link to="/" className="header__button btn-white" onClick={closeMenu}>Sign in</Link>
+                    <Link to="/" className="header__button-buy btn-blue" onClick={closeMenu}>Book a demo</Link>
                 </div>
 
             </div>

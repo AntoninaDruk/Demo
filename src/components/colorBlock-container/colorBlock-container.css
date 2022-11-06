@@ -1,0 +1,45 @@
+.colorBlock {
+    display: flex;
+    flex-direction: column;
+    width: 355px;
+    margin-right: 32px;
+    height: 250px;
+    justify-content: center;
+    padding-left: 32px;
+}
+
+.colorBlock-img1 {
+    max-width: 35px;
+    max-height: 45px;
+}
+
+.colorBlock-img2 {
+    max-width: 41px;
+    max-height: 41px;
+}
+
+.colorBlock-img3 {
+    max-width: 36px;
+    max-height: 40px;
+}
+
+.color1 {
+    background-color: #faea73;
+}
+
+.color2 {
+    background-color: #cceff6;
+}
+
+.color3 {
+    background-color: #f7cedc;
+}
+
+.colorBlock-text {
+    line-height: 24px;
+}
+
+.blockArticle {
+    font-size: 25px;
+    margin: 13px 0px 13px 0px;
+}
