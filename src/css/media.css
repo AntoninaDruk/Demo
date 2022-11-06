@@ -61,7 +61,7 @@
   .popup {
     top: 123px;
     position: fixed;
-    left: 25%;
+    left: 100%;
     width: 75%;
     height: 100%;
     background-color: #FFF;
@@ -72,7 +72,7 @@
   }
 
   .popup.open {
-    left: 100%;
+    left: 25%;
   }
 
 

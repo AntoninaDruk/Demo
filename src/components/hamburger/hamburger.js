@@ -22,7 +22,7 @@ const Hamburger = () => {
         <>
             <div className={`hamb ${isActive ? "active" : ""}`}
                 onClick={openHam}>
-                <div className={`hamb__field ${isActive ? "" : "active"}`} id="hamb">
+                <div className={`hamb__field ${isActive ? "active" : ""}`} id="hamb">
                     <span className="bar"></span>
                     <span className="bar"></span>
                     <span className="bar"></span>
