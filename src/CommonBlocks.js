@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./App.css";
 import "./reset.css";
 import "./media.css";
@@ -15,11 +16,13 @@ function CommonBlocks() {
           <div className="container">
             <div className="clmn4__wrapper-content">
               <div className="clmn4__text">
+                <Link to = "/">
                 <h1 className="clmn4-block__title">Your tasks, automated.</h1>
                 <p className="clmn4-block__text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
+                </Link>
               </div>
               <div className="clmn4-footer">
                 <Block1 />
