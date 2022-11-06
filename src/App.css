@@ -462,3 +462,14 @@ display: inline-block;
 .socialImg:hover{
   filter: invert(70%);
 }
+nav {
+  display:flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.link {
+  padding: 10px 40px;
+  text-decoration: none;
+  color: black;
+}
