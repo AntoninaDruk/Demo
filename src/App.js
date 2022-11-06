@@ -29,10 +29,9 @@ function App() {
     <div>
       <Router>
         <CommonBlocks />
-        <Link to ="/"></Link>
 
         <Routes>
-        <Route path="/" element={<CommonBlocks/>} />
+          <Route path="/" element="" />
           <Route path="/page1" element={<Page1 />} />
           <Route path="/page2" element={<Page2 />} />
           <Route path="/page3" element={<Page3 />} />
