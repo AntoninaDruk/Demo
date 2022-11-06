@@ -69,6 +69,7 @@
     display: flex;
     transition: 0.3s;
     flex-direction: column;
+    align-items: center
   }
 
   .popup.open {
@@ -97,12 +98,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 15px;
+    /*padding: 0 15px;*/
   }
 
   .popup .menu__list>li {
     width: 100%;
-    margin: 0px 24px 0px 0px;
+    /*margin: 0px 24px 0px 0px;*/
   }
 
   .popup .menu__list>li>a {
