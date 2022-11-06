@@ -6,7 +6,6 @@ function Block2() {
   return (
     <div>
       <main className="page">
-       
             <div className="clmn4__wrapper-content">
               <Link to="/page2" className="clmn4-wrapper">
                 <img src={lighting} className="clmn-logo" alt="main_img" />
@@ -19,7 +18,6 @@ function Block2() {
                 </article>
               </Link>
             </div>
-
       </main>
     </div>
   );

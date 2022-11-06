@@ -6,7 +6,6 @@ function Block3() {
   return (
     <div>
       <main className="page">
-     
             <div className="clmn4__wrapper-content">
               <Link to="/page3" className="clmn4-wrapper">
                 <img src={thumbup} className="clmn-logo" alt="main_img" />
