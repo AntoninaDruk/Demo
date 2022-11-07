@@ -7,9 +7,9 @@ const MenuList = () => {
  
   return (
     <ul className="menu__list">
-      <MenuItem name='Features' />
-      <MenuItem name='Pricing' />
-      <MenuItem name='Integrations' link="integrations"/>
+      <MenuItem name='Features' link="/" />
+      <MenuItem name='Pricing' link="/" />
+      <MenuItem name='Integrations' link="/"/>
       <MenuItem name='Learn' link="learn" />
     </ul >
   )
