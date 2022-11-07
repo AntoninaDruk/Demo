@@ -10,7 +10,7 @@ const MenuList = () => {
       <MenuItem name='Features' link="/" />
       <MenuItem name='Pricing' link="/" />
       <MenuItem name='Integrations' link="/"/>
-      <MenuItem name='Learn' link="learn" />
+      <MenuItem name='Learn' link="/" />
     </ul >
   )
 }

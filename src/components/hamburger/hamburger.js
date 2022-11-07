@@ -40,7 +40,7 @@ const Hamburger = () => {
                         <Link end to="/" class="menu__link" onClick={closeMenu}>Integrations</Link>
                     </li>
                     <li className="menu__item">
-                        <Link end to="learn" class="menu__link" onClick={closeMenu}>Learn</Link>
+                        <Link end to="/" class="menu__link" onClick={closeMenu}>Learn</Link>
                     </li>
                 </ul>
                 <div className="header__buttons" onClick={closeMenu}>

@@ -1,5 +1,5 @@
 .containerColor-Block {
-    padding: 130px 0px 130px 0px;
+    padding: 130px 0px 100px 0px;
 }
 
 .containerSect {
@@ -22,6 +22,16 @@
     margin-bottom: 140px;
 }
 
+.blockCompanies {
+    display: flex;
+    align-items: center;
+    width: 800px;
+    justify-content: space-around;
+}
+
+.blockCmpns4 {
+    display: flex;
+}
 .companies {
     margin-bottom: 23px;
     font-size: 24px;

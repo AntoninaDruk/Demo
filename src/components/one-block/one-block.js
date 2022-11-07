@@ -15,7 +15,7 @@ const Oneblock = () => {
                                 your everyday tasks and workflows in just a few clicks.</p>
                             <div className="main-block__buttons">
                                 <Link end to="/" class="main-block__button btn-blue">Book a demo</Link>
-                                <Link end to="learn" class="main-block__button btn-white">Learn more</Link>
+                                <Link end to="learnmore" class="main-block__button btn-white">Learn more</Link>
                             </div>
                         </div>
                         <div className="main-block__image">

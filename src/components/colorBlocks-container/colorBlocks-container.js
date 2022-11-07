@@ -1,5 +1,8 @@
 import ColorBlock from '../colorBlock-container/colorBlock-container';
-import frame from "../../img/companies/frame.png";
+import focusfox from "../../img/companies/focusfox.png";
+import novintech from "../../img/companies/novintech.png";
+import optimer from "../../img/companies/optimer.png";
+import carded from "../../img/companies/carded.png";
 import light from "../../img/companies/light.png";
 import money from "../../img/companies/money.png";
 import hand from "../../img/companies/hand.png";
@@ -10,7 +13,14 @@ const ColorBlocks = () => {
         <div class="containerSect containerColor-Block">
             <div class="blockContent">
                 <p class="companies">Trusted by 50,000+ companies</p>
-                <img src={frame} alt="companies" />
+                <div class="blockCompanies">
+                    <div class="blockCmpns4">
+                        <img src={focusfox} />
+                    </div>
+                    <div class="blockCmpns4"><img src={novintech} /></div>
+                    <div class="blockCmpns4"><img src={optimer} /></div>
+                    <div class="blockCmpns4"><img src={carded} /></div>
+                </div>
             </div>
             <div class="colorBlocks-container">
                 <ColorBlock classblock="colorBlock color1" classimg="colorBlock-img1" img={light} title="Fast. Really fast." text="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris

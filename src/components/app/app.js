@@ -13,7 +13,7 @@ function App() {
                 <main>
                     <Routes>
                         <Route end path="/" element={<Oneblock />} />
-                        <Route end path="learn" element={<ColorBlocks />} />
+                        <Route end path="learnmore" element={<ColorBlocks />} />
                     </Routes>
                 </main>
             </div>
