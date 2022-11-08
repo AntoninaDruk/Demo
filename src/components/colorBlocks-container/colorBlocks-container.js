@@ -10,19 +10,19 @@ import "./colorBlocks-container.css";
 
 const ColorBlocks = () => {
     return (
-        <div class="containerSect containerColor-Block">
-            <div class="blockContent">
-                <p class="companies">Trusted by 50,000+ companies</p>
-                <div class="blockCompanies">
-                    <div class="blockCmpns4">
+        <div className="containerSect containerColor-Block">
+            <div className="blockContent">
+                <p className="companies">Trusted by 50,000+ companies</p>
+                <div className="blockCompanies">
+                    <div className="blockCmpns4">
                         <img src={focusfox} />
                     </div>
-                    <div class="blockCmpns4"><img src={novintech} /></div>
-                    <div class="blockCmpns4"><img src={optimer} /></div>
-                    <div class="blockCmpns4"><img src={carded} /></div>
+                    <div className="blockCmpns4"><img src={novintech} /></div>
+                    <div className="blockCmpns4"><img src={optimer} /></div>
+                    <div className="blockCmpns4"><img src={carded} /></div>
                 </div>
             </div>
-            <div class="colorBlocks-container">
+            <div className="colorBlocks-container">
                 <ColorBlock classblock="colorBlock color1" classimg="colorBlock-img1" img={light} title="Fast. Really fast." text="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
             nisi ut aliquip ex ea commodo consequat. "/>
 
