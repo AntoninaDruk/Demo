@@ -365,7 +365,7 @@
 
   .whirl .header__logo::before {
     content: '';
-    background-image: url(../img/icons/logo1.png);
+    background-image: url(../img/logo1.png);
     width: 25px;
     height: 25px;
     align-self: flex-start;

@@ -1,11 +1,11 @@
 import ColorBlock from '../colorBlock-container/colorBlock-container';
-import focusfox from "../../img/companies/focusfox.png";
-import novintech from "../../img/companies/novintech.png";
-import optimer from "../../img/companies/optimer.png";
-import carded from "../../img/companies/carded.png";
-import light from "../../img/companies/light.png";
-import money from "../../img/companies/money.png";
-import hand from "../../img/companies/hand.png";
+import focusfox from "../../img/focusfox.png";
+import novintech from "../../img/novintech.png";
+import optimer from "../../img/optimer.png";
+import carded from "../../img/carded.png";
+import light from "../../img/light.png";
+import money from "../../img/money.png";
+import hand from "../../img/hand.png";
 import "./colorBlocks-container.css";
 
 const ColorBlocks = () => {

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Menulist from '../menu-list/menu-list';
-import Logo from "../../img/icons/logo2.png";
+import Logo from "../../img/logo2.png";
 import Hamburger from '../hamburger/hamburger';
 import "./header.css";
 
