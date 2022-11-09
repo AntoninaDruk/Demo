@@ -29,7 +29,6 @@ function App() {
           </main>
         </div>
         
-        < ColorBlock />
         <CommonBlocks />
 
 
