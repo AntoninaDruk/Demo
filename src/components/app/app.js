@@ -4,6 +4,7 @@ import Oneblock from '../one-block/one-block';
 import ColorBlocks from '../colorBlocks-container/colorBlocks-container';
 
 import './app.css';
+import CommonBlocks from '../../CommonBlocks';
 
 function App() {
     return (
@@ -17,6 +18,8 @@ function App() {
                     </Routes>
                 </main>
             </div>
+
+            <CommonBlocks/>
         </Router>
     );
 }

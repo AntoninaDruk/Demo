@@ -31,16 +31,16 @@ const Hamburger = () => {
             <div className={`popup ${isActive ? "open" : ""}`} id="popup">
                 <ul className="menu__list " onClick={closeMenu}>
                     <li className="menu__item">
-                        <Link end to="/" class="menu__link" onClick={closeMenu}>Features</Link>
+                        <Link end to="/" className="menu__link" onClick={closeMenu}>Features</Link>
                     </li>
                     <li className="menu__item">
-                        <Link end to="/" class="menu__link" onClick={closeMenu}>Pricing</Link>
+                        <Link end to="/" className="menu__link" onClick={closeMenu}>Pricing</Link>
                     </li>
                     <li className="menu__item">
-                        <Link end to="/" class="menu__link" onClick={closeMenu}>Integrations</Link>
+                        <Link end to="/" className="menu__link" onClick={closeMenu}>Integrations</Link>
                     </li>
                     <li className="menu__item">
-                        <Link end to="/" class="menu__link" onClick={closeMenu}>Learn</Link>
+                        <Link end to="/" className="menu__link" onClick={closeMenu}>Learn</Link>
                     </li>
                 </ul>
                 <div className="header__buttons" onClick={closeMenu}>

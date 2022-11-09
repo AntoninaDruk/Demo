@@ -1,8 +1,5 @@
-import point from "./Img/4.png";
+import point from "./img/4.png";
 import {Link } from "react-router-dom";
-import { Link } from "react-router-dom";
-import point from "./Images/4.png";
-import Page4 from "./Page4";
 
 function Block4() {
   return (

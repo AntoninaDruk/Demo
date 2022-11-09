@@ -1,8 +1,5 @@
-import lighting from "./Img/2.png";
+import lighting from "./img/2.png";
 import {Link } from "react-router-dom";
-import { Link } from "react-router-dom";
-import lighting from "./Images/2.png";
-import Page2 from "./Page2";
 
 function Block2() {
   return (

@@ -25,8 +25,8 @@ const Header = () => {
                         <Menulist />
                     </nav>
                     <div className="header__buttons">
-                        <Link to="/" class="header__button btn-white">Sign in</Link>
-                        <Link to="/" class="header__button-buy btn-blue">Book a demo</Link>
+                        <Link to="/" className="header__button btn-white">Sign in</Link>
+                        <Link to="/" className="header__button-buy btn-blue">Book a demo</Link>
                     </div>
                     <Hamburger/>
                    

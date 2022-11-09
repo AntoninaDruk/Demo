@@ -1,8 +1,5 @@
-import thumbup from "./Img/3.png";
+import thumbup from "./img/3.png";
 import {Link } from "react-router-dom";
-import { Link } from "react-router-dom";
-import thumbup from "./Images/3.png";
-import Page3 from "./Page3";
 
 function Block3() {
   return (
