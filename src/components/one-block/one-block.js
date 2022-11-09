@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 const Oneblock = () => {
     return (
-        <>
             <section className="oneblock" id="mainpage">
                 <div className="container">
                     <div className="main-block__content">
@@ -24,7 +23,6 @@ const Oneblock = () => {
                     </div>
                 </div>
             </section>
-        </>
     )
 }
 

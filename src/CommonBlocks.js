@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
-import "./App.css";
-import "./reset.css";
-import "./media.css";
+import "./components/css/App.css";
+
 
 import Block1 from "./Block1";
 import Block2 from "./Block2";

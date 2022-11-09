@@ -5,6 +5,11 @@
   letter-spacing: 0.2px;
   box-sizing: border-box;
 }
+
+.app {
+  margin: 0 auto;
+  max-width: 1000px;
+}
 /*.wrapper {
   min-height: 100%;
   overflow: hidden;
@@ -72,93 +77,28 @@
   flex-direction: column; - не поняла зачем.
 }*/
 
+
+* {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  box-sizing: border-box;
+}
+
 .container {
   max-width: 1130px;
   margin: 0px auto;
   padding: 10px;
-} /*Контейнер лучше на все элементы вешать, для более легкой адаптации*/
-
-/*------------------------------ШАПКА------------------------------------*/
-.wrapper__headerblue {
-  background-color: #0070a0;
-}
-.headerblue {
-  display: flex;
-  min-height: 43px;
-  /* width: 1440px;  - не нужно, поскольку контент в контейнере*/
-  margin: 0px auto;
-  align-content: space-between;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-.header__blue {
-  text-align: center;
-  color: #ffffff;
-  line-height: 116%;
-  font-size: 14px;
-}
-.header__blue span {
-  font-size: 13px;
-  display: inline-block;
-  vertical-align: top;
-  color: #cce5f3;
-}
-.header__blue span::after {
-  content: ">";
-}
-.header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 50;
-}
-.header .container{
-  padding: 0px 10px;
-}
-.header div:nth-of-type(2){
-  background-color: #fff;
+  max-height: 500px;
+ padding-bottom: 150px;
 }
 
-.header__container {
-  display: flex;
-  min-height: 80px;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #fff;
-  padding-top: 0px;
-}
-
-.header__logo {
-  display: contents;
-}
-
-.header__menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-/*.header__menu::before{
-  content: url("../img/icons/logo1.png");
-  margin-right: 10px;
-}*/
-.header__logo::before {
-  content: url("../img/icons/logo1.png");
-  margin-right: 10px;
-}
-/*.menu__flex{
-  display: flex;
-  width: 100%;
-  display: flex;
-}*/
 .menu__list {
   display: flex;
   margin-left: 34px;
 }
 
-.menu__item {
-}
 .menu__item/*:not(:last-child)*/ {
   margin: 0px 24px 0px 0px;
 }
@@ -215,17 +155,17 @@ color: #fff;
   margin-bottom: 68px;
 }
 
-.page {
-  /*display: flex;
+/* .page {
+  display: flex;
   min-height: 565px;
   width: 1120px;
   align-content: space-between;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: beige;*/
- /* margin: 123px auto;*/
-}
+  background-color: beige;
+ margin: 123px auto;
+} */
 
 /*.page__main-block {
   display: flex;
@@ -279,8 +219,7 @@ color: #fff;
   vertical-align: top;
   color: #1f1f1f;
 }
-.main-block__buttons {
-}
+
 .main-block__button {
   padding: 8px 32px;
   font-size: 17px;
@@ -292,8 +231,6 @@ color: #fff;
   left: 8px;
 }
 
-.main-block__image{
-}
 .main-block__image img {
   max-width: 100%;
   min-width: 250px;
@@ -301,14 +238,13 @@ color: #fff;
 
 /*-----------------------------4-КОЛОНКИ---------------------------------*/
 .columns4 {
-  padding-top: 123px;
   position: relative;
   top: -123px;
 }
 
 .columns4 .container{
   border: 2px solid #0070a0;
-  padding-bottom: 60px;
+
 }
 .clmn4__wrapper-content{
   padding-top: 50px; 
@@ -323,10 +259,13 @@ color: #fff;
 .clmn4-block__title {
   font-family: Fraunces;
   margin-bottom: 21px;
+  color: black;
+  font-size: 35px;
 }
 .clmn4-block__text {
   font-weight: 400;
   font-size: 18px;
+  color: black;
 }
 .clmn4-footer {
   display: flex;

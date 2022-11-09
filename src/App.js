@@ -1,22 +1,37 @@
-import React from 'react';
-import { 
-  BrowserRouter as Router, 
-  Routes, 
-  Route, 
-  Link } 
-from "react-router-dom";
-import CommonBlocks from './CommonBlocks';
-import Page1 from './Page1';
-import Page2 from './Page2';
-import Page3 from './Page3';
-import Page4 from './Page4';
-import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./components/css/App.css";
+import "./components/css/reset.css";
+import "./components/css/media.css";
+
+import Header from "./components/header/header";
+import Oneblock from "./components/one-block/one-block";
+import ColorBlocks from "./components/colorBlocks-container/colorBlocks-container";
+import ColorBlock from "./components/colorBlock-container/colorBlock-container";
+
+import CommonBlocks from "./CommonBlocks";
+import Page1 from "./Page1";
+import Page2 from "./Page2";
+import Page3 from "./Page3";
+import Page4 from "./Page4";
 
 function App() {
   return (
     <div>
       <Router>
+        <div className="app">
+          <Header /> 
+          < ColorBlock />
+          <main>
+            <Routes>
+              <Route end path="/" element={<Oneblock/>} />
+              <Route end path="learnmore" element={ <ColorBlocks/> } />
+            </Routes>
+          </main>
+        </div>
+        
+        < ColorBlock />
         <CommonBlocks />
+
 
         <Routes>
           <Route path="/" element="" />
@@ -29,6 +44,5 @@ function App() {
     </div>
   );
 }
-
 
 export default App;

@@ -1,4 +1,4 @@
-import computer from "./Images/computer.png";
+import computer from "./img/computer.png";
 import './Page1.css'
 
 const Page1 = () => {
