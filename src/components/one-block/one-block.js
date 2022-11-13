@@ -24,6 +24,7 @@ const Oneblock = () => {
                     </div>
                 </div>
             </section>
+           
         </>
     )
 }

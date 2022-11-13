@@ -1,0 +1,75 @@
+.containerS {
+    padding: 180px 0 134px 0;
+    max-width: 1130px;
+    margin: 0px auto;
+    height: 460px;
+}
+
+.whatsAbout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.whatsAbout__title-title {
+    display: block;
+    font-size: 42px;
+    font-family: Fraunces;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.whatsAbout__title {
+    display: flex;
+    justify-content: space-around;
+}
+
+.whatsAbout__text {
+    display: flex;
+    padding-left: 80px;
+    min-width: 890px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.whatsAbout__textColumn {
+    display: flex;
+    flex-direction: column;
+    max-height: 220px;
+    max-width: 220px;
+    padding-bottom: 60px;
+}
+
+.whatsAbout__textColumn0 {
+    display: flex;
+    flex-direction: column;
+    max-height: 220px;
+    max-width: 220px;
+    margin-top: 30px;
+}
+
+.whatsAbout__textTitle {
+    font-size: 25px;
+}
+
+.whatsAbout__textMain {
+    line-height: 24px;
+    font-size: 16px;
+    margin-top: 13px;
+}
+
+.imgBefore1::before {
+    content: url("./Images/magnificat.png");
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 16px;
+}
+
+.imgBefore2::before {
+    content: url("./Images/graph.png");
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 16px;
+}

@@ -1,0 +1,69 @@
+.columns4 {
+    padding-top: 123px;
+    position: relative;
+    top: -123px;
+}
+
+.columns4 .container {
+    border: 2px solid #0070a0;
+    padding-bottom: 60px;
+}
+
+.clmn4__wrapper-content {
+    padding-top: 50px;
+}
+
+.clmn4__text {
+    display: flex;
+    max-width: 650px;
+    flex-direction: column;
+    margin-bottom: 68px;
+}
+
+.clmn4-block__title {
+    font-family: Fraunces;
+    margin-bottom: 21px;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.clmn4-block__text {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.clmn4-footer {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.clmn4-footer__title {
+    font-family: "Fraunces";
+    font-size: 25px;
+    margin: 13px 0px 13px 0px;
+    color: #1F1F1F;
+}
+
+.clmn4-footer__text {
+    color: #1F1F1F;
+    margin-bottom: 10px;
+}
+
+.clmn4-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.25;
+    max-width: 240px;
+}
+
+.clmn4-wrapper:hover {
+    cursor: pointer;
+    filter: opacity(0.6);
+    transition: 0.3s;
+}
+
+.clmn-logo {
+    max-width: 55px;
+    max-height: 55px;
+}

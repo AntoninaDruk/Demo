@@ -1,0 +1,127 @@
+.containerColor-BlockB {
+  padding: 110px 0px 100px 0px;
+}
+
+.bg-Grey {
+  height: 850px;
+  background-color: #f7f9fa;
+  padding-top: 180px;
+}
+
+.bg-Grey__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bg-Grey__contentText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bg-Grey__contentImg {
+  display: flex;
+}
+
+.bg-Grey__textBig {
+  font-size: 46px;
+}
+
+.bg-Grey__textSmall-container {
+  margin-top: 60px;
+  display: flex;
+  max-width: 450px;
+  max-height: 350px;
+  flex-direction: column;
+}
+
+
+.bg-Grey__textSmall::before {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #c2cdd8;
+}
+
+.bg-Grey__textSmall::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #c2cdd8;
+}
+
+.bg-title {
+  font-family: fraunces;
+  font-size: 21px;
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+.bg-after__arrow::after {
+  content: url("./Images/bg-arrow.png");
+  display: block;
+  width: 25px;
+  height: 25px;
+  float: right;
+}
+
+.bg-img__1::before {
+  content: url("./Images/bg-img__1.png");
+  display: block;
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.bg-img__2::before {
+  content: url("./Images/bg-img__2.png");
+  display: block;
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin-left: 15px;
+  margin-right: 25px;
+}
+
+.bg-img__3::before {
+  content: url("./Images/bg-img__3.png");
+  display: block;
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin-left: 15px;
+  margin-right: 25px;
+}
+
+.bg-img__4::before {
+  content: url("./Images/bg-img__4.png");
+  display: block;
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin-left: 15px;
+  margin-right: 25px;
+}
+
+.bg-title2 {
+  font-family: fraunces;
+  font-size: 21px;
+  line-height: 25px;
+  color: #626a72;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bg-text {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 20px 50px 20px 60px;
+}
+
+.computer {
+  display: flex;
+  margin-top: 50px;
+}

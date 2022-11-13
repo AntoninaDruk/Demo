@@ -1,4 +1,22 @@
 .app {
     margin: 0 auto;
-    max-width: 1000px;
+    width: 100%;
+}
+
+.footer__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.infoBlock {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 6;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid #c2cdd8;
 }
